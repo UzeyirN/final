@@ -44,8 +44,6 @@ mongoose.connect(DB, (err) => {
 })
 
 
-
-
 app.get("/customers", (req, res) => {
     Customers.find({}, (err, docs) => {
         if (!err) {
