@@ -1,0 +1,27 @@
+.solution-wrapper {
+    height: 60vh;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.solution-img {
+    height: 500px;
+}
+
+.book {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+.fa-check{
+    margin-right: 10px;
+    color:RGB(54, 77, 89)
+}
+.check-wrapper{
+    margin: 20px 0;
+}

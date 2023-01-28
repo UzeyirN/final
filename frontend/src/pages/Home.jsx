@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet'
 import Book from '../components/Home/Book/Book'
 import Customers from '../components/Home/Customers/Customers'
 import HeroSec from '../components/Home/HeroSec/HeroSec'
+import LegalSolution from '../components/Home/LegalSolution/LegalSolution'
 import PracticeSec from '../components/Home/PracticeSection/PracticeSec'
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
       <PracticeSec />
       <Book />
       <Customers />
+      <LegalSolution />
     </>
   )
 }
