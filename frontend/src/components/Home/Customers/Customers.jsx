@@ -39,8 +39,8 @@ const Customers = () => {
                             customers?.filter(data => {
                                 return value.trim().toLowerCase() === "" ? data : data.name.toLowerCase().includes(value.toLowerCase())
                             })
-                                .map(({ _id, image, name, comment }) => (
-                                    <div className="col-4">
+                                .map(({ _id, image, name,specialty, comment }) => (
+                                    <div className="col-4 col-lg-4 col-md-12 col-sm-12">
                                         <div className="practice-card__wrapper">
                                             <div style={{ display: "flex", justifyContent: "start" }}>
                                                 <div className='customer-img__wrapper'>
@@ -49,7 +49,7 @@ const Customers = () => {
                                                     </div>
                                                     <div className="customer-name">
                                                         <div style={{ color: "RGB(54, 77, 89)" }}>{name}</div>
-                                                        <div style={{ color: "RGB(204, 204, 204)" }}>Owner, Ford</div>
+                                                        <div style={{ color: "RGB(204, 204, 204)" }}>{specialty}</div>
                                                     </div>
                                                 </div>
                                             </div>

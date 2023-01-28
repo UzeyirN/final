@@ -20,13 +20,14 @@ const Add = () => {
         setState({
             image: "",
             name: "",
+            specialty: "",
             comment: "",
         })
 
     }
 
     const handleChange = (e) => {
-        setState({...state,[e.target.name]:e.target.value})
+        setState({ ...state, [e.target.name]: e.target.value })
     }
 
     const { register, handleSubmit, formState: { errors } } = useForm({
@@ -50,6 +51,9 @@ const Add = () => {
 
                     <input name='name' value={state.name} {...register("name")} className='add-input' type="text" placeholder='name' onChange={handleChange} />
                     <p className='error-message'>{errors.name?.message}</p>
+
+                    <input name='specialty' value={state.specialty} {...register("specialty")} className='add-input' type="text" placeholder='specialty' onChange={handleChange} />
+                    <p className='error-message'>{errors.specialty?.message}</p>
 
                     <input name='comment' value={state.comment} {...register("comment")} className='add-input' type="text" placeholder='comment' onChange={handleChange} />
                     <p className='error-message'>{errors.comment?.message}</p>

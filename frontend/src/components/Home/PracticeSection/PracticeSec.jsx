@@ -6,14 +6,14 @@ const PracticeSec = () => {
     return (
         <>
             <div className="practicesec-wrapper">
-                <div style={{width:"40%",margin:"30px auto 50px auto",textAlign:"center"}}>
-                    <h2 className='playFair__font' style={{ fontSize: "32px" }}><span style={{ fontWeight: 700, marginRight: "20px" }}>Practice</span>
-                        <span style={{ color: "RGB(54, 77, 89)" }}>Areas</span> </h2>
+                <div style={{ width: "40%", margin: "30px auto 50px auto", textAlign: "center" }}>
+                    <h2  style={{ fontSize: "32px" }}><span className='playFair__font' style={{ fontWeight: 700, marginRight: "20px" }}>Practice</span>
+                        <span className='playFair__font' style={{ color: "RGB(54, 77, 89)" }}>Areas</span> </h2>
                     <p style={{ color: "RGB(54, 77, 89)" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div className="container">
                     <div className="row g-5">
-                        <div className="col-4">
+                        <div className="col-4 col-lg-4 col-md-6 col-sm-12">
                             <div className="practice-card__wrapper">
                                 <div style={{ display: "flex", justifyContent: "start" }}>
                                     <i class="fa-solid fa-building-columns practise-icon"></i>
@@ -22,7 +22,7 @@ const PracticeSec = () => {
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, laboriosam!</p>
                             </div>
                         </div>
-                        <div className="col-4">
+                        <div className="col-4 col-lg-4 col-md-6 col-sm-12">
                             <div className="practice-card__wrapper">
                                 <div style={{ display: "flex", justifyContent: "start" }}>
                                     <i class="fa-solid fa-circle-dollar-to-slot  practise-icon"></i>
@@ -31,7 +31,7 @@ const PracticeSec = () => {
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, laboriosam!</p>
                             </div>
                         </div>
-                        <div className="col-4">
+                        <div className="col-4 col-lg-4 col-md-6 col-sm-12">
                             <div className="practice-card__wrapper">
                                 <div style={{ display: "flex", justifyContent: "start" }}>
                                     <i class="fa-solid fa-person-military-to-person practise-icon"></i>
@@ -40,7 +40,7 @@ const PracticeSec = () => {
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, laboriosam!</p>
                             </div>
                         </div>
-                        <div className="col-4">
+                        <div className="col-4 col-lg-4 col-md-6 col-sm-12">
                             <div className="practice-card__wrapper">
                                 <div style={{ display: "flex", justifyContent: "start" }}>
                                     <i class="fa-solid fa-gun practise-icon"></i>
@@ -49,7 +49,7 @@ const PracticeSec = () => {
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, laboriosam!</p>
                             </div>
                         </div>
-                        <div className="col-4">
+                        <div className="col-4 col-lg-4 col-md-6 col-sm-12">
                             <div className="practice-card__wrapper">
                                 <div style={{ display: "flex", justifyContent: "start" }}>
                                     <i class="fa-solid fa-plane-departure practise-icon"></i>
@@ -58,7 +58,7 @@ const PracticeSec = () => {
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, laboriosam!</p>
                             </div>
                         </div>
-                        <div className="col-4">
+                        <div className="col-4 col-lg-4 col-md-6 col-sm-12">
                             <div className="practice-card__wrapper">
                                 <div style={{ display: "flex", justifyContent: "start" }}>
                                     <i class="fa-solid fa-people-roof practise-icon"></i>

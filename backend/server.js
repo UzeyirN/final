@@ -18,6 +18,10 @@ const customerSchema = new Schema(
             type: String,
             required: true
         },
+        specialty: {
+            type: String,
+            required: true
+        },
         comment: {
             type: String,
             required: true

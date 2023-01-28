@@ -8,7 +8,7 @@ const HeroSec = () => {
             <div className="herosec-wrapper" style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
                 <div className="container">
                     <div className="row">
-                        <div className="col-6" >
+                        <div className="col-6 col-lg-6 col-md-12 " >
                             <div className="herosec-content">
                                 <h1 className='playFair__font' style={{ fontSize: "50px", color: "white" }}>Notary Public & Legal Solutions</h1>
                                 <p style={{ color: "white" }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis cupiditate deserunt
