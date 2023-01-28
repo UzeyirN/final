@@ -1,0 +1,20 @@
+.practicesec-wrapper{
+    width: 100%;
+    background: #F8F9FA;
+    height: 100vh;
+    padding: 50px 0;
+}
+.practice-card__wrapper{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 300px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.practise-icon{
+    font-size: 50px;
+    color: rgb(85, 85, 199);
+}

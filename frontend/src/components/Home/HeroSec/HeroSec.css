@@ -1,0 +1,13 @@
+.herosec-wrapper{
+    width: 100%;
+    height: 100vh;
+    background: url('https://preview.colorlib.com/theme/notary/images/hero_bg_1.jpg');
+    
+}
+.herosec-content{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
