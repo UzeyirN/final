@@ -18,3 +18,10 @@
     font-size: 50px;
     color: rgb(85, 85, 199);
 }
+
+
+@media (max-width: 768px){
+    .practicesec-wrapper{
+       margin-bottom: 200px;
+    }
+}

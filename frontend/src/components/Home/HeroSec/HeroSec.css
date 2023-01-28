@@ -5,9 +5,21 @@
     
 }
 .herosec-content{
-    width: 70%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    width: 70%;
+
+}
+
+@media (width: 768px){
+    .herosec-content{
+        width: 80%;
+    }
+}
+@media (width: 576px){
+    .herosec-content{
+        width: 80%;
+    }
 }

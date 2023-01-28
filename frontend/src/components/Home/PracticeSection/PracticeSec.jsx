@@ -8,7 +8,7 @@ const PracticeSec = () => {
             <div className="practicesec-wrapper">
                 <div style={{ width: "40%", margin: "30px auto 50px auto", textAlign: "center" }}>
                     <h2  style={{ fontSize: "32px" }}><span className='playFair__font' style={{ fontWeight: 700, marginRight: "20px" }}>Practice</span>
-                        <span className='playFair__font' style={{ color: "RGB(54, 77, 89)" }}>Areas</span> </h2>
+                        <span className='playFair__font' style={{ color: "RGB(54, 77, 89)",fontWeight:"400" }}>Areas</span> </h2>
                     <p style={{ color: "RGB(54, 77, 89)" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div className="container">

@@ -22,3 +22,11 @@
     font-size: 28px;
     font-weight: 900;
 }
+
+
+@media (max-width: 768px){
+    .navbar-pages{
+        display: none
+    }
+}
+
